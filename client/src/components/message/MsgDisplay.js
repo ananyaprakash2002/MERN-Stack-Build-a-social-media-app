@@ -52,7 +52,7 @@ const MsgDisplay = ({user, msg, theme, data}) => {
                     }
                 </div>
             
-                {
+               {
                     msg.call &&
                     <button className="btn d-flex align-items-center py-3"
                     style={{background: '#eee', borderRadius: '10px'}}>
